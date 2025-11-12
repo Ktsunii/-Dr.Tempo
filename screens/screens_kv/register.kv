@@ -1,0 +1,30 @@
+<RegisterScreen>:
+    name: "register"
+    BoxLayout:
+        orientation: "vertical"
+        padding: dp(16); spacing: dp(8)
+        Label:
+            text: "Criar conta"
+            font_size: "20sp"
+        TextInput:
+            id: email_in
+            hint_text: "Email"
+            multiline: False
+        TextInput:
+            id: pass_in
+            hint_text: "Senha (6+)"
+            password: True
+            multiline: False
+        TextInput:
+            id: confirm_in
+            hint_text: "Confirmar senha"
+            password: True
+            multiline: False
+        Label:
+            id: reg_msg
+            text: ""
+            color: 1,0,0,1
+            font_size: "12sp"
+        Button:
+            text: "Cadastrar"
+            on_release: root.do_register(email_in.text, pass_in.text, confirm_in.text)

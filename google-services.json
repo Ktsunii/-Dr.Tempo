@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526778223151",
+    "project_id": "drtempo-a99a5",
+    "storage_bucket": "drtempo-a99a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526778223151:android:74e4616e0ab586fd0054da",
+        "android_client_info": {
+          "package_name": "br.com.ktsunii.drtempo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526778223151-orsq1gvrljscbnoqfbsgth8q75glt2c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5ucJC0WASuCNncJkNxBTiZx1zg21FBaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526778223151-orsq1gvrljscbnoqfbsgth8q75glt2c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

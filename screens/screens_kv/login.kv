@@ -1,0 +1,31 @@
+<LoginScreen>:
+    name: "login"
+    BoxLayout:
+        orientation: "vertical"
+        padding: dp(16); spacing: dp(8)
+        Label:
+            text: "DR.tempo"
+            font_size: "24sp"
+        TextInput:
+            id: email_in
+            hint_text: "Email"
+            multiline: False
+        TextInput:
+            id: pass_in
+            hint_text: "Senha (6+)"
+            password: True
+            multiline: False
+        Label:
+            id: login_msg
+            text: ""
+            color: 1,0,0,1
+            font_size: "12sp"
+        Button:
+            text: "Entrar"
+            on_release: root.do_login(email_in.text, pass_in.text)
+        Button:
+            text: "Criar conta"
+            on_release: root.go_register()
+        Button:
+            text: "Esqueci minha senha"
+            on_release: root.go_reset(email_in.text)
